@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  font-size: 22px;
+  font-size: 52px;
   text-align: center;
 }
 
@@ -18,8 +18,21 @@ header {
 }
 
 .title {
+  font-size: 42px;
   align-self: center;
   border: solid rgb(134, 131, 131) 1px;
   border-radius: 7px;
-  padding: 10px 200px;
+  padding: 10px 400px;
+}
+
+.planet-cards {
+  display: flex;
+  align-self: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  text-align: center;
 }
