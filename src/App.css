@@ -3,13 +3,13 @@
 }
 
 body {
-  background-image:url(/src/images/background.png);
+  background-image: url('/src/images/background.png');
   color: white;
 }
 
 header {
-  text-align: center;
   font-size: 22px;
+  text-align: center;
 }
 
 .solar-system {
@@ -17,7 +17,7 @@ header {
   flex-direction: column;
 }
 
-.title{
+.title {
   align-self: center;
   border: solid rgb(134, 131, 131) 1px;
   border-radius: 7px;
