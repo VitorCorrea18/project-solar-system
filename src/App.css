@@ -1,3 +1,25 @@
 .App {
   text-align: center;
 }
+
+body {
+  background-image:url(/src/images/background.png);
+  color: white;
+}
+
+header {
+  text-align: center;
+  font-size: 22px;
+}
+
+.solar-system {
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  align-self: center;
+  border: solid rgb(134, 131, 131) 1px;
+  border-radius: 7px;
+  padding: 10px 200px;
+}
