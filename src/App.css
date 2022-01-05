@@ -19,28 +19,31 @@ header {
 }
 
 .title {
-  font-size: 42px;
+
   /* align-self: center; */
-  text-align: center;
-  margin: 0 10%;
   border: solid rgb(134, 131, 131) 1px;
   border-radius: 7px;
+  font-size: 42px;
+  margin: 0 10%;
   padding: 10px;
+  text-align: center;
 }
 
 .planet-section {
-  display: flex;
   align-self: center;
+  display: flex;
   margin: 50px;
+
   /* flex-wrap: wrap; */
+
   /* margin: 5%; */
 }
 
 .planet-card {
   display: flex;
   flex-direction: column;
-  width: 200px;
   text-align: center;
+  width: 200px;
 }
 
 .missions {
@@ -50,22 +53,22 @@ header {
 }
 
 .missions-section {
+  align-self: center;
   display: flex;
   flex-wrap: wrap;
   margin: 100px;
   max-width: 60rem;
-  align-self: center;
 }
 
 .mission-card {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
   align-self: center;
-  width: 200px;
-  height: 150px;
-  margin: 10px;
   border: solid rgb(134, 131, 131) 1px;
   border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  margin: 10px;
+  text-align: center;
+  width: 200px;
 }
 
