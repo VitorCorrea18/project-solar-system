@@ -15,19 +15,25 @@ header {
 .solar-system {
   display: flex;
   flex-direction: column;
+  margin: 5%;
 }
 
 .title {
   font-size: 42px;
-  align-self: center;
+  /* align-self: center; */
+  text-align: center;
+  margin: 0 10%;
   border: solid rgb(134, 131, 131) 1px;
   border-radius: 7px;
-  padding: 10px 400px;
+  padding: 10px;
 }
 
 .planet-section {
   display: flex;
   align-self: center;
+  margin: 50px;
+  /* flex-wrap: wrap; */
+  /* margin: 5%; */
 }
 
 .planet-card {
@@ -36,3 +42,30 @@ header {
   width: 200px;
   text-align: center;
 }
+
+.missions {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+
+.missions-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px;
+  max-width: 60rem;
+  align-self: center;
+}
+
+.mission-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-self: center;
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  border: solid rgb(134, 131, 131) 1px;
+  border-radius: 7px;
+}
+
